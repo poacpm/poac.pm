@@ -1,0 +1,19 @@
+{
+  "main.js": "/static/js/main.8b8cfa15.chunk.js",
+  "main.js.map": "/static/js/main.8b8cfa15.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.1b922744.js",
+  "runtime~main.js.map": "/static/js/runtime~main.1b922744.js.map",
+  "vendors~main.js": "/static/js/vendors~main.0b49ec49.chunk.js",
+  "vendors~main.js.map": "/static/js/vendors~main.0b49ec49.chunk.js.map",
+  "./service-worker.js": "/./service-worker.js",
+  "CNAME": "/CNAME",
+  "apple-touch-icon.png": "/apple-touch-icon.png",
+  "favicon.ico": "/favicon.ico",
+  "icon-512x512.png": "/icon-512x512.png",
+  "index.html": "/index.html",
+  "manifest.json": "/manifest.json",
+  "precache-manifest.6576488799370a5f59a9fe74c7afdacc.js": "/precache-manifest.6576488799370a5f59a9fe74c7afdacc.js",
+  "robots.txt": "/robots.txt",
+  "sitemap.xml": "/sitemap.xml",
+  "terminal.svg": "/terminal.svg"
+}
