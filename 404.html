@@ -1,40 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Single Page Apps for GitHub Pages</title>
-    <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      // This script takes the current url and converts the path and query
-      // string into just a query string, and then redirects the browser
-      // to the new url with only a query string and hash fragment,
-      // e.g. https://www.foo.tld/one/two?a=b&c=d#qwe, becomes
-      // https://www.foo.tld/?/one/two&a=b~and~c=d#qwe
-      // Note: this 404.html file must be at least 512 bytes for it to work
-      // with Internet Explorer (it is currently > 512 bytes)
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script>
+      (function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
+      ;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
+      ;c.parentNode.insertBefore(a,c)
+      })(window,document,"galite","script","https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js");
 
-      // If you're creating a Project Pages site and NOT using a custom domain,
-      // then set pathSegmentsToKeep to 1 (enterprise users may need to set it to > 1).
-      // This way the code will only replace the route part of the path, and not
-      // the real directory in which the app resides, for example:
-      // https://username.github.io/repo-name/one/two?a=b&c=d#qwe becomes
-      // https://username.github.io/repo-name/?/one/two&a=b~and~c=d#qwe
-      // Otherwise, leave pathSegmentsToKeep as 0.
-      var pathSegmentsToKeep = 0;
-
-      var l = window.location;
-      l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
-
+      galite('create', 'UA-118251040-1', 'auto');
+      galite('send', 'pageview');
     </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0">
+
+    <title>Poac Package Manager for C++</title>
+    <meta name="author" content="matken">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@matken11235">
+
+    <meta property="og:title" content="Poac Package Manager for C++">
+    <meta property="og:site_name" content="poac">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://poac.pm">
+    <meta property="og:image" content="https://poac.pm/images/icon-512x512.png">
+    <meta property="og:description" content="Modern Package Manager for C++.">
+
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon.png">
+
+    <!-- The third-party stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,600,700|Varela+Round&display=swap" media="print" onload="this.media='all'">
   </head>
+
   <body>
+    <script defer src="/main.js"></script>
   </body>
 </html>
